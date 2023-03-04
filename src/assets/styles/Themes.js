@@ -5,7 +5,6 @@ export const summer = {
     secondary: "#FACF9D",
     secondaryLight: "#FBF0DD",
     secondaryDark: "#DF9010"
-
 }
 
 
