@@ -1,18 +1,21 @@
 import React from 'react'
 import { Container, Logo, Button, Navbar } from './style'
+import { Link } from "react-router-dom";
 
 
 export function Header () {
     return (
         <Container>
-            <Logo src="/public/img/logo.png" alt="logo do CodeChella" />
+            <Link to="/">
+                <Logo src="/public/img/logo.png" alt="logo do CodeChella" />
+            </Link>
             <Button type="button"></Button>
             <Navbar>
                 <ul>
-                    <li><a href="#">A experiência</a></li>
-                    <li><a href="#">Mapa de Setores</a></li>
-                    <li><a href="#">Informações</a></li>
-                    <li><a href="#">Ingresso</a></li>
+                    <li><Link to="/experience">A experiência</Link></li>
+                    <li><Link to="#">Mapa de Setores</Link></li>
+                    <li><Link to="#">Informações</Link></li>
+                    <li><Link to="#">Ingresso</Link></li>
                 </ul>
             </Navbar> 
         </Container>
