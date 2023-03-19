@@ -7,7 +7,7 @@ export function Header () {
     return (
         <Container>
             <Link to="/">
-                <Logo src="/public/img/logo.png" alt="logo do CodeChella" />
+                <Logo src="/img/logo.png" alt="logo do CodeChella" />
             </Link>
             <Button type="button"></Button>
             <Navbar>
